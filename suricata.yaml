@@ -1,0 +1,10 @@
+%YAML 1.1
+
+- host1:
+    mac: 01:02:03:04:05:06
+    domain_name: abcdefg.com
+
+        
+- host2:
+    mac: 11:02:03:04:05:06
+    domain_name: 1bcdefg.com
