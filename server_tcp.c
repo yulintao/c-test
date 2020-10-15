@@ -49,5 +49,7 @@ main()
 			/* 将字符串传给server端*/
 			printf("%s\n", buffer);
 		sleep(1);
+		if (0 < write(conn_fd, buffer, sizeof(buffer)))
+			printf("%s\n", buffer);
 	}
 }

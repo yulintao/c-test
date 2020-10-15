@@ -17,4 +17,5 @@ int main(int argc, char *argv[])
 			printf("%d\n", n);
 			break;
 		}
+	printf("dafffad \v  %d\n",n);
 }
